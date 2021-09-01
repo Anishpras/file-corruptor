@@ -1,8 +1,6 @@
 import { useState } from "react";
 import "./App.css";
 
-import { jsPDF } from "jspdf";
-
 function App() {
   const [fileUploaded, setFileUploaded] = useState(null);
   const [fileName, setFileName] = useState("");

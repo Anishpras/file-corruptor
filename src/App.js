@@ -63,20 +63,21 @@ function App() {
       </div>
       <div className="bottom-0 bg-red-400 absolute w-screen flex justify-center items-center p-2">
         <a
-          className="text-4xl mr-3"
+          className="text-4xl text-white mr-3"
           href="https://github.com/Anishpras"
           target="_blank"
           rel="noopener noreferrer">
           <FaGithub />
         </a>
         <a
-          className="text-4xl mr-3"
+          className="text-4xl text-white mr-3"
           href="https://www.linkedin.com/in/anishpras118/"
           target="_blank"
           rel="noopener noreferrer">
           <FaLinkedin />
         </a>
-        <p>Copyright {date}</p>
+        <p className="text-white mr-3">Copyright {date}</p>
+        <p className="text-white font-semibold">| Made by Anish Prashun</p>
       </div>
     </div>
   );
